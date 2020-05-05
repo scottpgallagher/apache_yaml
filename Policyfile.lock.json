@@ -1,0 +1,51 @@
+{
+  "revision_id": "674521b6a31ea5eba7ccae6bc5876b6dcafe123e98d12d987a5a19cddea0918c",
+  "name": "apache_yaml",
+  "run_list": [
+    "recipe[apache_yaml::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "apache_yaml": {
+      "version": "0.1.0",
+      "identifier": "3dc25dd5486e81513bc23200e631260d70cc88dd",
+      "dotted_decimal_identifier": "17383681845390977.22865178362177073.41839168882909",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "2e48b71516bb652aa53c51e47ec79b890d439581",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "apache_yaml",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "apache_yaml (0.1.0)": [
+
+      ]
+    }
+  }
+}
